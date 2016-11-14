@@ -18,6 +18,6 @@ post '/send' do
   @client.account.messages.create({
     :from => '+19179094316',
     :to => to_number,
-    :body => 'finally got this shit to work!!',
+    :body => 'WORKING',
   })
 end
